@@ -1,0 +1,22 @@
+[
+  {
+    "email": "snayder@gmail.com",
+    "message": "Hola mundo",
+    "date": "23/02/2022 11:37:55"
+  },
+  {
+    "email": "admin@admin.com",
+    "message": "123",
+    "date": "23/02/2022 08:24:05"
+  },
+  {
+    "email": "admin@admin.com",
+    "message": "hola",
+    "date": "23/02/2022 08:40:48"
+  },
+  {
+    "email": "admin@admin.com",
+    "message": "Hola mundo",
+    "date": "23/02/2022 08:41:02"
+  }
+]

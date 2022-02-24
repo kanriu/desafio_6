@@ -1,0 +1,51 @@
+<div class="container">
+  <h1 class="title">Ingrese Producto</h1>
+  <form>
+    <div class="row">
+      <label class="m-5" for="title">Nombre </label>
+      <input id="title" class="m-5" name="title" />
+    </div>
+    <div class="row">
+      <label class="m-5" for="price">Precio </label>
+      <input id="price" class="m-5" name="price" type="number" step="0.01" />
+    </div>
+    <div class="row">
+      <label class="m-5" for="thumbnail">Foto URL </label>
+      <input id="thumbnail" class="m-5" name="thumbnail" />
+    </div>
+    <div class="row">
+      <button id="btn-submit" class="m-5">Enviar</button>
+    </div>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Foto</th>
+      </tr>
+    </thead>
+    <tbody id="content-table">
+    </tbody>
+  </table>
+</div>
+<div class="container">
+  <h1 class="title">Centro de Mensajes</h1>
+  <form>
+    <div>
+      <input id="email" class="m-5" type="email" required />
+    </div>
+    <div id="content-chat" class="row">
+
+    </div>
+    <div>
+      <input
+        id="message"
+        class="m-5"
+        placeholder="Ingrese un mensaje..."
+        required
+      />
+      <button id="btn-send" class="m-5">Enviar!</button>
+    </div>
+  </form>
+</div>
